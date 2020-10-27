@@ -1,13 +1,6 @@
-"""
-
+'''
 Script with helper functions to load data.
-
-Running the file from bash (as follows) plots the various
-latent datasets available::
-
-    $ python data.py
-
-"""
+'''
 
 import torch
 import numpy as np

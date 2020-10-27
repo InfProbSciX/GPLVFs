@@ -2,7 +2,7 @@
 
 This is the code behind our paper:
 
-> Variational Gaussian Process Latent Variable Models with Normalizing Flows
+> Lalchand, V., Ravuri, A., Lawrence, N. D. (2020) _Variational Gaussian Process Latent Variable Models with Normalizing Flows_
 
 As an illustration, this is what a typical run looks like at the moment:
 
@@ -28,7 +28,7 @@ Y_recon = gplvf.y_given_x(X_recon)
 data.check_model(X, Y, Y_recon, 'GPLVF + PCA Encoder')
 ```
 
-![Synthetic Data](plots/example_syn.png)
+<img src="plots/example_syn.png" width="75%">
 
 The MNIST plot can be generated using:
 
@@ -40,4 +40,4 @@ MNISTPlotsAndSDInits().test_missing_mnist_plots_and_inits()
 
 ```
 
-![Missing Data MNIST](plots/example_mnist_missing.png)
+<img src="plots/example_mnist_missing.png" width="75%">
